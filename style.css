@@ -154,7 +154,7 @@ nav ul li ul li a{
     z-index: -99;
 }
 .banner-text{
-    width: 62%;
+    width: 76%;
     margin: auto;
 }
 .banner-text h1{
@@ -172,8 +172,8 @@ nav ul li ul li a{
 .banner-text h2::before{
     content: "";
     position: absolute;
-    left: 18px;
-    top: 22px;
+    left: 92px;
+    top: 27px;
     width: 13%;
     height: 2%;
     background: #fff;
@@ -181,8 +181,8 @@ nav ul li ul li a{
 .banner-text h2::after{
     content: "";
     position: absolute;
-    right: 14px;
-    top: 21px;
+    right: 92px;
+    top: 27px;
     width: 13%;
     height: 2%;
     background: #fff;
@@ -346,6 +346,7 @@ nav ul li ul li a{
     font-size: 15px;
     border: none;
     outline: none;
+    border: 3px solid transparent;
 }
 .contact input:focus{
     border: 3px solid black;
@@ -358,6 +359,7 @@ nav ul li ul li a{
     font-size: 15px;
     border: none;
     outline: none;
+    border: 3px solid transparent;
 }
 .contact textarea:focus{
     border: 3px solid black;
